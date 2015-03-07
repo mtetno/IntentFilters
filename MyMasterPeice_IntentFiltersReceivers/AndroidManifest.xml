@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mtetno.mymasterpeice"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- Note Very iMP thing here we cannot add  <action android:name="com.mtetno.mymasterpeice.VIEW_RECEIVER" /> here it wont egonize it -->
+        <activity
+            android:name="com.mtetno.mymasterpeice.ReciverActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mtetno.mymasterpeice.ReciverActivityType1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.mtetno.mymasterpeice.VIEW_RECEIVER" />
+                <!--
+                    if i dont specify the default here , it would be registered as Inplicit Intent Categories are used for implicit Intents. So, If your Activity might be started by an implicit Intent when no specific category is assigned to it, its Intent filter should include this category.( even if you have other categories in the Intent filter). If you are sure that your activity must be called with any other Category don't use the Default.
+                    Setting Category to Default doesn't mean that this Activity will be used by default when your app launches. The Activity just says to system that " Oh I could be started, even if the starter Intent's category is set to Nothing at all ! "
+                -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mtetno.mymasterpeice.ReciverActivityType2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.mtetno.mymasterpeice.VIEW_RECEIVER1" />
+                <action android:name="com.mtetno.mymasterpeice.VIEW_RECEIVER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

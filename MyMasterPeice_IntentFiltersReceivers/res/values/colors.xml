@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="red">#FF0000</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="gray">#808080</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="maroon">#800000</color>
+    <color name="aqua">#00FFFF</color>
+    <color name="lime">#00FF00</color>
+    <color name="teal">#008080</color>
+    <color name="green">#008000</color>
+    <color name="blue">#0000FF</color>
+    <color name="navy">#000080</color>
+    <color name="black">#000000</color>
+    <color name="custom_blue">#505050</color>
+    <color name="faint_blue">#CCE5FF</color>
+    <color name="Royal_Blue">#2B60DE</color>
+    <color name="Blue_Ivy">#3090C7</color>
+    <color name="Light_Steel_Blue">#728FCE</color>
+    <color name="Dodger_Blue">#1589FF</color>
+    <color name="Deep_Sky_Blue">#3BB9FF</color>
+    <color name="Blue_Diamond">#4EE2EC</color>
+    <color name="Blue_Hosta">#77BFC7</color>
+    <color name="Turquoise">#43C6DB</color>
+    <color name="Grayish_Turquoise">#5E7D7E</color>
+    <color name="Teal">#008080</color>
+    <color name="Venom_Green">#728C00</color>
+    <color name="Medium_Sea_Green">#306754</color>
+    <color name="Alien_Green">#6CC417</color>
+    <color name="Zombie_Green">#54C571</color>
+    <color name="Iguana_Green">#9CB071</color>
+    <color name="Jade">#5EFB6E</color>
+    <color name="Goldenrod">#EDDA74</color>
+    <color name="Vanilla">#F3E5AB</color>
+    <color name="Golden">#EAC117</color>
+    <color name="Saffron">#FBB917</color>
+    <color name="Sandy_Brown">#EE9A4D</color>
+    <color name="Gold">#D4A017</color>
+    <color name="Brass">#B5A642</color>
+    <color name="Cinnamon">#C58917</color>
+    <color name="Moccasin">#827839</color>
+    <color name="Sandstone">#786D5F</color>
+    <color name="Coffee">#6F4E37</color>
+    <color name="Papaya_Orange">#E56717</color>
+    <color name="Plum_Velvet">#7D0552</color>
+    <color name="Carnation_Pink">#F778A1</color>
+    <color name="Viola_Purple">#7E587E</color>
+    <color name="Purple_Jam">#6A287E</color>
+    <color name="Medium_Orchid">#B048B5</color>
+    <color name="Jasmine_Purple">#A23BEC</color>
+    <color name="Crimson">#E238EC</color>
+    <!-- Grid background colors -->
+    <color name="grid_bg_color1">#CE4319</color>
+    <color name="grid_bg_color2">#558B2F</color>
+    <color name="grid_bg_color3">#8E24AA</color>
+    <color name="grid_bg_color4">#0288D1</color>
+    <color name="grid_bg_color5">#00897B</color>
+    <color name="grid_bg_color6">#607D8B</color>
+
+</resources>
